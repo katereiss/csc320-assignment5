@@ -11,7 +11,7 @@ public class gradeStatistics {
         float grade;
         
         for (int i = 0; i < 10; ++i){
-            System.out.println("Enter grade " + (i+1) + ": ");
+            System.out.println("Enter grade " + (i+1) + " between 0 and 100: ");
             grade = scnr.nextFloat();
 
             sum += grade;
