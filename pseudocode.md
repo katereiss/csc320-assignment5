@@ -4,8 +4,7 @@ Write a program that will provide important statistics for the grades in a class
 -Maximum
 -Minimum
 
-
-An assumption made in this assignment is that grades can only be floating point numbers from 0 to 100. 
+Start program
 
 Initialize grade = 0 as float
 Initialize max = 0 as float
@@ -15,6 +14,7 @@ Initialize sum = 0 as float
 
 For grades 0 to 9
 Ask user to input grade
+grade = user input
 Add grade to sum
 If grade > max, then max = grade
 End if
@@ -33,7 +33,11 @@ End program
 
 
 
+Notes:
 
+Storing the ten user-input grades as an array would allow for more complex and efficient calculations, but I noticed those are introduced next week.
+
+An assumption made in this program is that grades can only be floating point numbers from 0 to 100.  One consideration is that a user could input a negative grade or a grade over 100. Setting the min and max at the beginning to 100 and 0 respectively may catch some of these cases. 
 
 
 
