@@ -1,24 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
-import java.util.Arrays;
-
-// Prompt user to enter a day of the week or "week"  
-
-// If user input is "week"  
-// Initialize variable total as double, set to zero  
-
-// For each day of the week  
-// Print day + ": " + temperature  
-// Add temperature to total  
-// Print average = total / 7  
-
-// Else-if day of week is in days  
-// Initizalize variable index as integer  
-// Set index equal to the index of day of week in days  
-// Print the result of indexing days with index  
-// Print the result of indexing temperatures with index  
-
-// Else print invalid day  
+import java.util.Arrays; 
 
 public class weeklyTemperatures {
     public static void main(String[] args) {
